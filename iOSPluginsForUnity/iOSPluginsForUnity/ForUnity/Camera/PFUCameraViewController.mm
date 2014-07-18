@@ -17,8 +17,8 @@
     UIView *_loadingView;
 }
 
-static const NSInteger kNHKErrorAlert = 1001;
-static const NSInteger kNHKSavedAlert = 1002;
+static const NSInteger kPFUErrorAlert = 1001;
+static const NSInteger kPFUSavedAlert = 1002;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -212,7 +212,7 @@ static const NSInteger kNHKSavedAlert = 1002;
                                                        delegate:self
                                               cancelButtonTitle:nil
                                               otherButtonTitles:@"OK", nil];
-    alertView.tag = kNHKSavedAlert;
+    alertView.tag = kPFUSavedAlert;
     [alertView show];
 }
 
@@ -223,7 +223,7 @@ static const NSInteger kNHKSavedAlert = 1002;
                                                        delegate:self
                                               cancelButtonTitle:nil
                                               otherButtonTitles:@"OK", nil];
-    alertView.tag = kNHKErrorAlert;
+    alertView.tag = kPFUErrorAlert;
     [alertView show];
 }
 
@@ -233,13 +233,13 @@ static const NSInteger kNHKSavedAlert = 1002;
 {
 
     switch (alertView.tag) {
-        case kNHKErrorAlert: {
+        case kPFUErrorAlert: {
             if (buttonIndex == 0) {
                 [self hide];
             }
             break;
         }
-        case kNHKSavedAlert: {
+        case kPFUSavedAlert: {
             if (buttonIndex == 0) {
                 [self hideBySuccess];
             }
