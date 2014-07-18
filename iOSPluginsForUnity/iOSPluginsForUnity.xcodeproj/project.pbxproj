@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FFD005819793B9300835C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFD005719793B9300835C36 /* Foundation.framework */; };
+		9FFD005A19793B9300835C36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFD005919793B9300835C36 /* CoreGraphics.framework */; };
+		9FFD005C19793B9300835C36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFD005B19793B9300835C36 /* UIKit.framework */; };
+		9FFD006219793B9300835C36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD006019793B9300835C36 /* InfoPlist.strings */; };
+		9FFD006419793B9300835C36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD006319793B9300835C36 /* main.m */; };
+		9FFD006819793B9300835C36 /* PFUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD006719793B9300835C36 /* PFUAppDelegate.m */; };
+		9FFD006B19793B9300835C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD006919793B9300835C36 /* Main.storyboard */; };
+		9FFD006E19793B9300835C36 /* PFUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD006D19793B9300835C36 /* PFUViewController.m */; };
+		9FFD007019793B9300835C36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD006F19793B9300835C36 /* Images.xcassets */; };
+		9FFD007719793B9300835C36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFD007619793B9300835C36 /* XCTest.framework */; };
+		9FFD007819793B9300835C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFD005719793B9300835C36 /* Foundation.framework */; };
+		9FFD007919793B9300835C36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFD005B19793B9300835C36 /* UIKit.framework */; };
+		9FFD008119793B9300835C36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD007F19793B9300835C36 /* InfoPlist.strings */; };
+		9FFD008319793B9300835C36 /* iOSPluginsForUnityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD008219793B9300835C36 /* iOSPluginsForUnityTests.m */; };
+		9FFD009C19793C0900835C36 /* PFUCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD009019793C0900835C36 /* PFUCameraViewController.mm */; };
+		9FFD009D19793C0900835C36 /* PFUAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD009419793C0900835C36 /* PFUAccessoryView.m */; };
+		9FFD009E19793C0900835C36 /* PFUInputViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD009619793C0900835C36 /* PFUInputViewController.mm */; };
+		9FFD009F19793C0900835C36 /* PFUMovieDisplayController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD009919793C0900835C36 /* PFUMovieDisplayController.mm */; };
+		9FFD00A019793C0900835C36 /* PFUNativeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD009B19793C0900835C36 /* PFUNativeAccess.m */; };
+		9FFD00A219793F1800835C36 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFD00A119793F1800835C36 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FFD007A19793B9300835C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFD004C19793B9300835C36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFD005319793B9300835C36;
+			remoteInfo = iOSPluginsForUnity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FFD005419793B9300835C36 /* iOSPluginsForUnity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPluginsForUnity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFD005719793B9300835C36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FFD005919793B9300835C36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FFD005B19793B9300835C36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FFD005F19793B9300835C36 /* iOSPluginsForUnity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSPluginsForUnity-Info.plist"; sourceTree = "<group>"; };
+		9FFD006119793B9300835C36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FFD006319793B9300835C36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FFD006519793B9300835C36 /* iOSPluginsForUnity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSPluginsForUnity-Prefix.pch"; sourceTree = "<group>"; };
+		9FFD006619793B9300835C36 /* PFUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFUAppDelegate.h; sourceTree = "<group>"; };
+		9FFD006719793B9300835C36 /* PFUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFUAppDelegate.m; sourceTree = "<group>"; };
+		9FFD006A19793B9300835C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FFD006C19793B9300835C36 /* PFUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFUViewController.h; sourceTree = "<group>"; };
+		9FFD006D19793B9300835C36 /* PFUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFUViewController.m; sourceTree = "<group>"; };
+		9FFD006F19793B9300835C36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9FFD007519793B9300835C36 /* iOSPluginsForUnityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPluginsForUnityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFD007619793B9300835C36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9FFD007E19793B9300835C36 /* iOSPluginsForUnityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSPluginsForUnityTests-Info.plist"; sourceTree = "<group>"; };
+		9FFD008019793B9300835C36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FFD008219793B9300835C36 /* iOSPluginsForUnityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPluginsForUnityTests.m; sourceTree = "<group>"; };
+		9FFD008F19793C0900835C36 /* PFUCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFUCameraViewController.h; sourceTree = "<group>"; };
+		9FFD009019793C0900835C36 /* PFUCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PFUCameraViewController.mm; sourceTree = "<group>"; };
+		9FFD009319793C0900835C36 /* PFUAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFUAccessoryView.h; sourceTree = "<group>"; };
+		9FFD009419793C0900835C36 /* PFUAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFUAccessoryView.m; sourceTree = "<group>"; };
+		9FFD009519793C0900835C36 /* PFUInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFUInputViewController.h; sourceTree = "<group>"; };
+		9FFD009619793C0900835C36 /* PFUInputViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PFUInputViewController.mm; sourceTree = "<group>"; };
+		9FFD009819793C0900835C36 /* PFUMovieDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFUMovieDisplayController.h; sourceTree = "<group>"; };
+		9FFD009919793C0900835C36 /* PFUMovieDisplayController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PFUMovieDisplayController.mm; sourceTree = "<group>"; };
+		9FFD009A19793C0900835C36 /* PFUNativeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFUNativeAccess.h; sourceTree = "<group>"; };
+		9FFD009B19793C0900835C36 /* PFUNativeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFUNativeAccess.m; sourceTree = "<group>"; };
+		9FFD00A119793F1800835C36 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFD005119793B9300835C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD00A219793F1800835C36 /* MediaPlayer.framework in Frameworks */,
+				9FFD005A19793B9300835C36 /* CoreGraphics.framework in Frameworks */,
+				9FFD005C19793B9300835C36 /* UIKit.framework in Frameworks */,
+				9FFD005819793B9300835C36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD007219793B9300835C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD007719793B9300835C36 /* XCTest.framework in Frameworks */,
+				9FFD007919793B9300835C36 /* UIKit.framework in Frameworks */,
+				9FFD007819793B9300835C36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FFD004B19793B9300835C36 = {
+			isa = PBXGroup;
+			children = (
+				9FFD005D19793B9300835C36 /* iOSPluginsForUnity */,
+				9FFD007C19793B9300835C36 /* iOSPluginsForUnityTests */,
+				9FFD005619793B9300835C36 /* Frameworks */,
+				9FFD005519793B9300835C36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFD005519793B9300835C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD005419793B9300835C36 /* iOSPluginsForUnity.app */,
+				9FFD007519793B9300835C36 /* iOSPluginsForUnityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFD005619793B9300835C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD00A119793F1800835C36 /* MediaPlayer.framework */,
+				9FFD005719793B9300835C36 /* Foundation.framework */,
+				9FFD005919793B9300835C36 /* CoreGraphics.framework */,
+				9FFD005B19793B9300835C36 /* UIKit.framework */,
+				9FFD007619793B9300835C36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FFD005D19793B9300835C36 /* iOSPluginsForUnity */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD008D19793C0900835C36 /* ForUnity */,
+				9FFD006619793B9300835C36 /* PFUAppDelegate.h */,
+				9FFD006719793B9300835C36 /* PFUAppDelegate.m */,
+				9FFD006919793B9300835C36 /* Main.storyboard */,
+				9FFD006C19793B9300835C36 /* PFUViewController.h */,
+				9FFD006D19793B9300835C36 /* PFUViewController.m */,
+				9FFD006F19793B9300835C36 /* Images.xcassets */,
+				9FFD005E19793B9300835C36 /* Supporting Files */,
+			);
+			path = iOSPluginsForUnity;
+			sourceTree = "<group>";
+		};
+		9FFD005E19793B9300835C36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD005F19793B9300835C36 /* iOSPluginsForUnity-Info.plist */,
+				9FFD006019793B9300835C36 /* InfoPlist.strings */,
+				9FFD006319793B9300835C36 /* main.m */,
+				9FFD006519793B9300835C36 /* iOSPluginsForUnity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FFD007C19793B9300835C36 /* iOSPluginsForUnityTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD008219793B9300835C36 /* iOSPluginsForUnityTests.m */,
+				9FFD007D19793B9300835C36 /* Supporting Files */,
+			);
+			path = iOSPluginsForUnityTests;
+			sourceTree = "<group>";
+		};
+		9FFD007D19793B9300835C36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD007E19793B9300835C36 /* iOSPluginsForUnityTests-Info.plist */,
+				9FFD007F19793B9300835C36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FFD008D19793C0900835C36 /* ForUnity */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD008E19793C0900835C36 /* Camera */,
+				9FFD009119793C0900835C36 /* Input */,
+				9FFD009719793C0900835C36 /* Movie */,
+				9FFD009A19793C0900835C36 /* PFUNativeAccess.h */,
+				9FFD009B19793C0900835C36 /* PFUNativeAccess.m */,
+			);
+			path = ForUnity;
+			sourceTree = "<group>";
+		};
+		9FFD008E19793C0900835C36 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD008F19793C0900835C36 /* PFUCameraViewController.h */,
+				9FFD009019793C0900835C36 /* PFUCameraViewController.mm */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9FFD009119793C0900835C36 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD009219793C0900835C36 /* Accessory */,
+				9FFD009519793C0900835C36 /* PFUInputViewController.h */,
+				9FFD009619793C0900835C36 /* PFUInputViewController.mm */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		9FFD009219793C0900835C36 /* Accessory */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD009319793C0900835C36 /* PFUAccessoryView.h */,
+				9FFD009419793C0900835C36 /* PFUAccessoryView.m */,
+			);
+			path = Accessory;
+			sourceTree = "<group>";
+		};
+		9FFD009719793C0900835C36 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD009819793C0900835C36 /* PFUMovieDisplayController.h */,
+				9FFD009919793C0900835C36 /* PFUMovieDisplayController.mm */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFD005319793B9300835C36 /* iOSPluginsForUnity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFD008619793B9300835C36 /* Build configuration list for PBXNativeTarget "iOSPluginsForUnity" */;
+			buildPhases = (
+				9FFD005019793B9300835C36 /* Sources */,
+				9FFD005119793B9300835C36 /* Frameworks */,
+				9FFD005219793B9300835C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSPluginsForUnity;
+			productName = iOSPluginsForUnity;
+			productReference = 9FFD005419793B9300835C36 /* iOSPluginsForUnity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FFD007419793B9300835C36 /* iOSPluginsForUnityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFD008919793B9300835C36 /* Build configuration list for PBXNativeTarget "iOSPluginsForUnityTests" */;
+			buildPhases = (
+				9FFD007119793B9300835C36 /* Sources */,
+				9FFD007219793B9300835C36 /* Frameworks */,
+				9FFD007319793B9300835C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFD007B19793B9300835C36 /* PBXTargetDependency */,
+			);
+			name = iOSPluginsForUnityTests;
+			productName = iOSPluginsForUnityTests;
+			productReference = 9FFD007519793B9300835C36 /* iOSPluginsForUnityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFD004C19793B9300835C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PFU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = corleonis;
+				TargetAttributes = {
+					9FFD007419793B9300835C36 = {
+						TestTargetID = 9FFD005319793B9300835C36;
+					};
+				};
+			};
+			buildConfigurationList = 9FFD004F19793B9300835C36 /* Build configuration list for PBXProject "iOSPluginsForUnity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FFD004B19793B9300835C36;
+			productRefGroup = 9FFD005519793B9300835C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFD005319793B9300835C36 /* iOSPluginsForUnity */,
+				9FFD007419793B9300835C36 /* iOSPluginsForUnityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFD005219793B9300835C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD007019793B9300835C36 /* Images.xcassets in Resources */,
+				9FFD006219793B9300835C36 /* InfoPlist.strings in Resources */,
+				9FFD006B19793B9300835C36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD007319793B9300835C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD008119793B9300835C36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFD005019793B9300835C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD009F19793C0900835C36 /* PFUMovieDisplayController.mm in Sources */,
+				9FFD006819793B9300835C36 /* PFUAppDelegate.m in Sources */,
+				9FFD009D19793C0900835C36 /* PFUAccessoryView.m in Sources */,
+				9FFD006E19793B9300835C36 /* PFUViewController.m in Sources */,
+				9FFD006419793B9300835C36 /* main.m in Sources */,
+				9FFD009C19793C0900835C36 /* PFUCameraViewController.mm in Sources */,
+				9FFD00A019793C0900835C36 /* PFUNativeAccess.m in Sources */,
+				9FFD009E19793C0900835C36 /* PFUInputViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD007119793B9300835C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD008319793B9300835C36 /* iOSPluginsForUnityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FFD007B19793B9300835C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFD005319793B9300835C36 /* iOSPluginsForUnity */;
+			targetProxy = 9FFD007A19793B9300835C36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FFD006019793B9300835C36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFD006119793B9300835C36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FFD006919793B9300835C36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFD006A19793B9300835C36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FFD007F19793B9300835C36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFD008019793B9300835C36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFD008419793B9300835C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FFD008519793B9300835C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFD008719793B9300835C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSPluginsForUnity/iOSPluginsForUnity-Prefix.pch";
+				INFOPLIST_FILE = "iOSPluginsForUnity/iOSPluginsForUnity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FFD008819793B9300835C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSPluginsForUnity/iOSPluginsForUnity-Prefix.pch";
+				INFOPLIST_FILE = "iOSPluginsForUnity/iOSPluginsForUnity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9FFD008A19793B9300835C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSPluginsForUnity.app/iOSPluginsForUnity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSPluginsForUnity/iOSPluginsForUnity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSPluginsForUnityTests/iOSPluginsForUnityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9FFD008B19793B9300835C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSPluginsForUnity.app/iOSPluginsForUnity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSPluginsForUnity/iOSPluginsForUnity-Prefix.pch";
+				INFOPLIST_FILE = "iOSPluginsForUnityTests/iOSPluginsForUnityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFD004F19793B9300835C36 /* Build configuration list for PBXProject "iOSPluginsForUnity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD008419793B9300835C36 /* Debug */,
+				9FFD008519793B9300835C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFD008619793B9300835C36 /* Build configuration list for PBXNativeTarget "iOSPluginsForUnity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD008719793B9300835C36 /* Debug */,
+				9FFD008819793B9300835C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FFD008919793B9300835C36 /* Build configuration list for PBXNativeTarget "iOSPluginsForUnityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD008A19793B9300835C36 /* Debug */,
+				9FFD008B19793B9300835C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFD004C19793B9300835C36 /* Project object */;
+}
